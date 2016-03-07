@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
-var io = require('../..')(server);
+var io = require('socket.io')(server);
 var port = process.env.PORT || 3000;
 
 server.listen(port, function () {
@@ -9,8 +9,11 @@ server.listen(port, function () {
 });
 
 // Routing
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('static'));
 
+app.get("/", function(req, res){
+    res.sendFile(__dirname + "/static/html/index.html");
+});
 // Chatroom
 
 var numUsers = 0;
