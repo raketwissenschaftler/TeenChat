@@ -1,5 +1,7 @@
 # TeenChat
 ## What is this project?
+
+[![Join the chat at https://gitter.im/raketwissenschaftler/TeenChat](https://badges.gitter.im/raketwissenschaftler/TeenChat.svg)](https://gitter.im/raketwissenschaftler/TeenChat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 The purpose is to work on a project together and learn eachother something.
 
 ## I want to help, how do I start?
